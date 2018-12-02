@@ -38,6 +38,9 @@ Card::Card(int newSuit, int newNumber, int newState) {
 
 void Card::print() {
 	switch (number) {
+	case 10:
+		cout << "0";
+		break;
 	case 11:
 		cout << "J";
 		break;
